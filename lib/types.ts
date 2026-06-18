@@ -20,8 +20,10 @@ export interface Yarn {
   code: string;
   color_name: string;
   color_hex: string | null;
+  color_group: string | null;
   stock_count: number;
   unit_price: number | null;
+  gram: number | null;
   image_url: string | null;
   notes: string | null;
   created_at: string;
